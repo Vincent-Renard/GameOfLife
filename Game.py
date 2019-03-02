@@ -11,3 +11,7 @@ class Game:
     def __init__(self, length, height, nb_generations):
         self._nb_generations = nb_generations
         self._grid = Grid(length, height)
+
+    def run(self):
+        for i in range(self._nb_generations):
+            pass
